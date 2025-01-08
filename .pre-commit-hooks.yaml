@@ -1,0 +1,13 @@
+- id: clang-format
+  name: clang-format
+  description: Automatically install any specific version of clang-format and format C/C++ code
+  entry: clang-format-hook
+  language: python
+  files: \.(h\+\+|h|hh|hxx|hpp|c|cc|cpp|c\+\+|cxx)$
+
+- id: clang-tidy
+  name: clang-tidy
+  description: Automatically install any specific version of clang-tidy and diagnose/fix typical programming errors
+  entry: clang-tidy-hook
+  language: python
+  files: \.(h\+\+|h|hh|hxx|hpp|c|cc|cpp|c\+\+|cxx)$
