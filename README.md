@@ -3,7 +3,11 @@ The tool provides medical image processing and 3D-model reconstruction via trang
 
 ## Results
 
+![Spine model without initial image filtering](results/noisy_spine.png)
 
+![Spine model with initial image filtering](results/spine.png)
+
+![Legs model with initial image filtering](results/legs.png)
 
 ## Overview
 
